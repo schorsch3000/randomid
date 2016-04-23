@@ -1,0 +1,5 @@
+hooks.ini
+Test/blobdir
+clover.xml
+cloverReport/
+vendor/

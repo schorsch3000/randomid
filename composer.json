@@ -1,0 +1,24 @@
+{
+  "name": "schorsch3000/randomid",
+  "description": "generates pseudo-random id mappings stored in files",
+  "type": "libray",
+  "require-dev": {
+    "phpunit/phpunit": "^5.3"
+  },
+  "license": "GPL-v3",
+  "authors": [
+    {
+      "name": "Dirk Heilig",
+      "email": "dicky.dicky@gmail.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "randomId\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  }
+}
